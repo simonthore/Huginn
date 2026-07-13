@@ -1,1 +1,6 @@
-print("🐦 Huginn s'éveille...")
+from core.assistant import Huginn
+
+huginn = Huginn()
+
+huginn.speak()
+
